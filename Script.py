@@ -249,8 +249,8 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/super4crazy">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/super4crazy>[Super4crazy]</a></b>"""
-
+    CAPTION = """<b><a href="https://t.me/super4crazy">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/super4crazy>[Super4crezy]</a></b>"""
+    
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
