@@ -35,7 +35,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002116984433')) #Log channel id ( make sure bot is admin )
 DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '-1002090559987')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002116984433')) # add premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '-1001643143406') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1001783911610') #Channel / Group Id for force sub ( make sure bot is admin )
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001837694049') # support group id ( make sure bot is admin )
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001837694049') # request channel id ( make sure bot is admin ).
@@ -68,7 +68,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MdiskGroup')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/super4crazy')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/super4crazys')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/super4crazy786')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/supermoviesupdate')
 
